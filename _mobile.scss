@@ -1,0 +1,32 @@
+@media(max-width: 815px) {
+    .showcase {
+        height: 500px;
+
+        &-content {
+            text-align: center;
+            padding-top: 30px;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px) {
+    .showcase {
+        .logo {
+            display: none;
+        }
+        h1 {
+            font-size: 80px;
+        }
+        p {
+            line-height: 1;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
